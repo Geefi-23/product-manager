@@ -1,0 +1,15 @@
+#stats-view{
+  background-color: rgba(70, 224, 70, 0.616);
+  height: 30px;
+  width: 50%;
+  color: white;
+  border: 2px solid rgb(70, 224, 70);
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+}
+#product-form input{
+  height: 45px;
+  border-radius: 5px;
+}

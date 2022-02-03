@@ -1,0 +1,30 @@
+
+<div id="toolbar" class="d-flex justify-content-between px-3 w-100" role="toolbar">
+  <div>
+    <button id="btn-create" class="tb-btn tb-btn-green">Criar</button>
+    <input id="in-search" class="h-100 ms-4 ps-2 border" 
+    type="text" role="search" placeholder="Pesquisar item">
+  </div>
+  <div>
+    <button id="btn-edit" class="tb-btn tb-btn-blue me-2">Editar</button>
+    <button id="btn-delete" class="tb-btn tb-btn-red">Excluir</button>
+  </div>
+</div>
+<div class="p-3" style="flex: 1 1 auto;">
+  <div id="product-list" class="h-100 w-100 py-3 border">
+    <% for (let i = 0; i < products.length; i++) { %>
+    <div class="product-item">
+      <div class="d-inline-block h-100" style="width: calc(100% - 100px)">
+        <h5><%= products[i].name %></h5>
+        <div>R$ <%= products[i].price.toLocaleString('pt-BR')%><%= products[i].price % 1 === 0? ',00' : ''%></div>
+        <div>Fabricante: <%= products[i].manufacturer %></div>
+      </div>
+      <div class="d-inline-flex justify-content-center align-items-center" style="width: 100px;">
+        <input class="border" type="checkbox" value=<%= products[i].id %>>
+      </div>
+      
+    </div>
+    <% } %>
+  </div>
+</div>
+<script src="js/list.js"></script>

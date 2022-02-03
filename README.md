@@ -1,12 +1,13 @@
 # product-manager
 Um simples gerenciador de produtos.
 Este app foi criado usando HTML, CSS, JavaScript e NodeJS, com o framework Express.
-Não foi utilizado nenhum banco de dados conhecido. Ao invés disso, um arquivo .json é utilizado como o banco de dados da aplicação. 
+Não foi utilizado nenhum banco de dados conhecido. Ao invés disso, um arquivo .json é o banco de dados da aplicação. 
 
 Eng: 
 A simple product manager.
 This app has been made using HTML, CSS, JavaScript and NodeJS, with the Express framework.
-Not is used anyone famous database. Instead, a .json file is used as the database for the application.
+Not is used anyone famous database. Instead, a .json file is
+ the database for the application.
 
 # Como usar / How to use
 Depois de baixar ou clonar o repositório para a sua máquina, simplesmente rode o comando 'npm start' na raiz do repositório local.
